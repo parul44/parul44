@@ -2435,3 +2435,6 @@ input, select, textarea {
 		  .icon_currency_alt:before {
 			content: "\e0f3";
 		}
+		.size{
+			height: 300px;
+		}
