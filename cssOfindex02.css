@@ -6,11 +6,13 @@
     left: 0;
     top: 0;
     width: 100%;
-    color: rgb(112, 86, 53);
+    color: rgb(36, 114, 167);
     background: rgba(255, 255, 255, 0.95);
     height: 3em;
     line-height: 3em;
     box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-bottom: 1px;
 }
 #header nav {
     position: absolute;
@@ -18,6 +20,7 @@
     top: 0;
     height: 3em;
     line-height: 3em;
+    
 }
 
     #header nav ul {
@@ -27,7 +30,7 @@
         #header nav ul li {
             display: inline-block;
             margin-left: 0.5em;
-            font-size: 0.9em;
+            font-size: 1.3em;
         }
 
             #header nav ul li a {
@@ -38,6 +41,16 @@
                 line-height: 3em;
                 padding: 0 0.5em 0 0.5em;
                 outline: 0;
+            }
+            #header li .btn{
+                color:  rgb(36, 114, 167);
+                border: 1px solid  rgb(36, 114, 167);
+                border-radius: 15px;
+
+            }  
+            #header li .btn:hover{
+                background-color: rgb(36, 114, 167);
+                color: white;
             }
             @media screen and (max-width: 700px) {
 
@@ -51,9 +64,7 @@
                         display: none;
                     }
             }
-          .gallery{  border: 2px solid;
-            border-radius: 4px;
-            padding: 10px;
+          .gallery{   padding: 10px;
             
             display: table;
             table-layout: fixed;
@@ -91,6 +102,3 @@
                     height: 400px;
                 }
             }
-
-        
-
