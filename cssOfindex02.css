@@ -6,7 +6,7 @@
     left: 0;
     top: 0;
     width: 100%;
-    color: rgb(36, 114, 167);
+    color: rgb(7, 27, 41);
     background: rgba(255, 255, 255, 0.95);
     height: 3em;
     line-height: 3em;
@@ -43,13 +43,13 @@
                 outline: 0;
             }
             #header li .btn{
-                color:  rgb(36, 114, 167);
-                border: 1px solid  rgb(36, 114, 167);
+                color: rgb(7, 27, 41);
+                border: 1px solid  rgb(7, 27, 41);;
                 border-radius: 15px;
 
             }  
             #header li .btn:hover{
-                background-color: rgb(36, 114, 167);
+                background-color: rgb(7, 27, 41);;
                 color: white;
             }
             @media screen and (max-width: 700px) {
@@ -83,6 +83,9 @@
                 vertical-align: middle;
                 text-align: center;
                
+            }
+            .card img{
+                height: 150px;
             }
             @media screen and (max-width: 1024px){
                 .item > img{
